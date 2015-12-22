@@ -1,0 +1,235 @@
+body{
+	font-family: 'Museo';
+	margin: 0;
+	padding: 0px;
+}
+ul{
+	padding: 0;
+	display: inline-block;
+    width:100%;
+    vertical-align: top;
+    box-sizing:border-box;
+}
+li{
+	list-style-type: none;
+
+}
+.statcscheck {
+   background-color: #b3b8bb;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: 3px solid #fff;
+    left: 40px;
+    position: absolute;
+    display: inline-block;
+    border-radius: 100%;
+    top: 35px;
+}
+.statcscheck.online{
+   background-color: #54cf49;
+}
+.statcscheck.away{
+	background-color: #F9C26B;
+}
+.story_board{
+	position: absolute;
+	padding: 10px;
+	background-color: #fff;
+	box-sizing: border-box;
+	width:100%;
+}
+.story_board p{
+	color: #5e6d82;
+	margin: 5px 2px 0px 2px;
+	line-height: 20px;
+	font-weight: 300;
+	font-size: 15px;
+}
+.story_board .header h2{
+	color:#555555;
+	font-weight: 400;
+	margin: 0;
+	padding-right: 40px;
+	font-size: 18px;
+}
+.story_board h2 span{
+	color:#aaaaaa;
+	font-size: 13px;
+	font-weight: 100;
+    padding-top: 5px;
+    position: absolute;
+    right: 20px;
+}
+.story_board .content h4 {
+    margin: 3px 0 10px 0;
+    font-weight: 400;
+    color: #3c3c3c;
+}
+.story_board .header h2 span{
+	padding:6px 0 0 0;
+	position: absolute;
+    right: 5px;
+	} 
+.story_board .header h3{
+	color:#777775;
+	font-weight: 300;
+	margin: 3px 0 0 0;
+	font-size: 18px;
+}
+.story_board .content h2{
+	color: #4b5a6f;
+	margin: 3px 0 0 0px;
+	font-size: 17px;
+	font-weight: 400;
+	padding-right: 70px;
+}
+.story_board .header figcaption{
+    padding: 2px 0 2px 70px;
+    vertical-align: top;
+    width: 100%;
+    box-sizing: border-box;
+} 
+.story_board .content figcaption{
+	padding: 12px 0 0px 125px;
+	vertical-align: top;
+}
+.story_board .bottom{
+	padding:20px 20px 0px 20px;
+	text-align: center;
+}
+.story_board .bottom a{
+	text-decoration: none;
+	color:#0086a3;
+	font-weight: 400;
+}
+.story_board .content img{
+	width:100px;
+	height:100px;
+	float:left;
+	border-radius:100%;
+	border: solid 5px #d8d8d8;
+	box-shadow: 0 1px 0 #ccc;
+}
+.new_item .header h2, .winner .header h2,.time_bid .header h2 {
+    color: #5e6d82;
+        padding: 0;
+}
+
+
+
+.created_challenge,.completed_challenge,.new_item,.winner,.time_bid{
+	background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: solid 1px #ddd;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    box-sizing:border-box;
+}
+.header{
+	display: inline-block;
+	width: 100%;
+	padding: 0 0 20px 5px;
+	position: relative;
+}
+
+.header figure{
+	margin: 0;
+	padding: 0;
+}
+.header img{
+	width:50px;
+	height: 50px;
+	border-radius: 100%;
+	float: left;
+}
+.story_board .content {
+	padding: 20px 0;
+	border-bottom:1px solid #ddd;
+	border-top:1px solid #ddd;
+}
+.story_board span i.fa{
+    color: #F6D247;
+    font-size: 20px;
+}
+.story_board .completed_challenge .content figcaption{
+	padding: 18px 0 18px 125px;
+}
+.story_board .new_item .content figcaption{
+	padding: 30px 0 25px 125px;
+}
+.winner .content figure{
+	margin: 10px 0 0px 0;
+}
+.winner .content {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+.winner .content figure img{
+	width:30px;
+	height:30px;
+	border-radius: 100%;
+	border:0;
+	float: left;
+}
+.story_board .winner .content figcaption {
+    padding: 24px 0 24px 125px;
+}
+.winner .content figure h3{
+	margin: 0;
+    color: #777775;
+    font-weight: 400;
+    padding: 0px 0px 8px 45px;
+}
+.time_bid .content {
+	border-bottom: 0;
+	padding-bottom: 0;
+}
+.time_bid .content h3 {
+    color: #c4c4c4;
+    font-weight: 300;
+    font-size: 24px;
+    margin: 10px 0 0 0;
+}
+.time_bid .content h3 span {
+    color: #c4c4c4;
+    font-size: 18px;
+    font-weight: 100;
+    padding-left: 20px;
+}
+.story_board .time_bid .content figcaption{
+	padding: 25px 0 25px 125px;
+}
+.time_bid .header div{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.new_item .header div{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.winner .header div{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+.story_board .new_item .content h2 span {
+    margin-left: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
